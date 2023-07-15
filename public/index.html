@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Example</title>
+</head>
+
+<body style="caret-color: transparent;">
+    <canvas id="renderCanvas" width="400" height="400"></canvas>
+
+    <!-- Since import maps are not yet supported by all browsers, its is
+        necessary to add the polyfill es-module-shims.js -->
+    <script async src="https://unpkg.com/es-module-shims@1.7.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@babylonjs/core": "https://unpkg.com/@babylonjs/core@6.11.1",
+                "@babylonjs/core/": "https://unpkg.com/@babylonjs/core@6.11.1/",
+                "box2d-wasm": "https://8observer8.github.io/lib/box2d-wasm-7.0.0-box2d-2.4.1/box2d-wasm.min.js"
+            }
+        }
+    </script>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
