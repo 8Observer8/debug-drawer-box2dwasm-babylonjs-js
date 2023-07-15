@@ -193,6 +193,8 @@ async function init() {
             spherePos.x * unitsPerMeter, spherePos.y * unitsPerMeter, 0
         ));
 
+        sphere.rotation.z = sphereRigidBody.GetAngle();
+
         currentTime = Date.now();
         dt = (currentTime - lastTime) / 1000;
         lastTime = currentTime;
