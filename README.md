@@ -2,7 +2,7 @@
 
 Playgrounds:
 
-- Babylon.js Playground: https://playground.babylonjs.com/#7ICSL2
+- Babylon.js Playground: https://playground.babylonjs.com/#7ICSL2#1
 - Plunker: https://plnkr.co/edit/J1sIepjuDudJQjyW?preview
 - Glitch: https://glitch.com/edit/#!/rambunctious-low-axolotl
 
